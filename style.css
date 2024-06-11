@@ -1,0 +1,110 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 1440px;
+  height: 630px;
+}
+
+.webpage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;  
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  height: 900px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#logo {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 36px;
+  position: relative;
+  padding-left: 24px;
+}
+
+#c {
+  color: #f67519;
+}
+#eye1 {
+  width: 12px;
+  position: absolute;
+  margin-left: 110px;
+  margin-top: -62px;
+  border-radius: 36px;
+}
+.welcome {
+  font-family: "Montserrat", san-serif;
+  font-size: 48px;
+}
+
+.input-title {
+  font-family: montserrat;
+  font-size: 10px;
+  margin: 16px 0px 4px 16px;
+}
+
+.input-buttons {
+  width: 284px;
+  padding: 16px;
+  position: relative;
+  
+}
+
+#eye2 {
+  width: 20px;
+  position: absolute;
+  margin-left: -32px;
+  margin-top: 16px;
+  opacity: 0.3;
+}
+
+.remember {
+  display: flex;  
+}
+
+#check {
+  background-color: #1f9e76;
+  margin-left: 16px;
+}
+
+.remember-text {
+  font-family: "Montserrat", san-serif;
+  font-size: 10px;
+  
+}
+
+#forgot-text {
+  color: blue;
+  padding-left: 120px;
+}
+
+#login-button {
+  width: 320px;
+  padding: 16px;
+  background-color: #1f9e76;
+  border: none;
+  border-radius: 8px;
+  color: #eeeeee;
+  margin-top: 16px;
+}
+
+#reg {
+  color: blue;
+  
+}
+
+#new {
+  justify-self: center;
+}
+
+#last {
+  display: flex;
+  justify-content: center;
+}

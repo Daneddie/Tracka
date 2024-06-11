@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TRACKA</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/style.css" />
+
+</head>
+<body>
+
+  <!-- 
+    Hex colour theme: green = 1f9e76, black = 212121, orange = f67519, gray = eeeeee
+
+    LOGIN PAGE
+    webpage 1440 x 900
+    Boxes and buttotns are 56px  
+    All elements divisible by 8 (except some fonts)
+
+    MAIN PAGE
+    webpage 1440 x 900
+    Left and right margins of 15px
+    Columns and element spacings 90px
+    BUttons 48px
+    All elements divisible by 8 (except some fonts)
+
+  -->
+  
+  <div class="webpage">
+    <div class="header">
+      <h3 id="logo">TRA<span id= "c">C</span>KA</h3>
+      <img id= "eye1" src="/logo-eye.png" /> 
+    </div>
+
+    <div class="hero">
+      <h1 class="welcome">Welcome to TRACKA</h1>
+      <div class="buttons">
+        <p class="input-title">Email</p>
+        <input class="input-buttons" type="text" placeholder="registerjeffrey@outlook.com"/>
+        <p class="input-title">Password</p>
+        <input class="input-buttons" type="password" placeholder="Enter your password"> 
+        <img id= "eye2" src="/eye-icon2.png" /> 
+
+        <div class="remember" display="flex">
+          <input id="check" type="checkbox">
+          <p class="remember-text">Remember me</p>
+          <p class="remember-text" id="forgot-text">Forgot Password?</p>
+        </div>
+
+        <button id="login-button">Login</button>
+        <div id="last">
+          <p class="input-title" id="new">New to Tracka? <span id= "reg">Register</span></p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</body>
+</html>
